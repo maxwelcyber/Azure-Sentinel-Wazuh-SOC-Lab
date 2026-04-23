@@ -9,7 +9,7 @@ This project demonstrates the end-to-end deployment of a modern **Security Opera
 I deployed a **Wazuh Manager** on Ubuntu 22.04 and successfully enrolled a **Kali Linux** endpoint (Host: `bluey`). This setup provides real-time visibility into system calls, file integrity, and rootkit detection.
 
 * **Key Achievement:** Successfully configured the Wazuh agent to communicate over a secure virtual network, ensuring consistent telemetry flow.
-* **Image Evidence:** `![Wazuh Dashboard](images/wazuh_dashboard.png)`
+* **Image Evidence:** `!(images/wazuh_dashboard.png)`
 
 ### 2. SIEM & Infrastructure Auditing
 Utilizing **Microsoft Sentinel**, I established a "Single Pane of Glass" for the cloud environment. By connecting the **Azure Activity Logs** connector, the SIEM automatically ingests administrative actions, providing a full audit trail of resource modifications.
