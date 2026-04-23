@@ -9,19 +9,19 @@ This project demonstrates the end-to-end deployment of a modern **Security Opera
 I deployed a **Wazuh Manager** on Ubuntu 22.04 and successfully enrolled a **Kali Linux** endpoint (Host: `bluey`). This setup provides real-time visibility into system calls, file integrity, and rootkit detection.
 
 * **Key Achievement:** Successfully configured the Wazuh agent to communicate over a secure virtual network, ensuring consistent telemetry flow.
-* **Image Evidence:** `![IMG_1057](https://github.com/user-attachments/assets/4471d549-922b-4107-ad79-740b8bd4025b)`
+* **Image Evidence:** ![IMG_1057](https://github.com/user-attachments/assets/4e29db34-1b43-4789-bbc5-7a6b225079a8)
 
 ### 2. SIEM & Infrastructure Auditing
 Utilizing **Microsoft Sentinel**, I established a "Single Pane of Glass" for the cloud environment. By connecting the **Azure Activity Logs** connector, the SIEM automatically ingests administrative actions, providing a full audit trail of resource modifications.
 
 * **Key Achievement:** Correlated platform-level changes (like patch installations) directly within the Sentinel Log Analytics workspace.
-* **Image Evidence:** `![IMG_1058 (1)](https://github.com/user-attachments/assets/26989487-9012-4309-b7ea-717f2555d0ff)`
+* **Image Evidence:** ![IMG_1058 (1)](https://github.com/user-attachments/assets/a49e8100-f56c-4d9e-927d-4f376f5b2332)
 
 ### 3. Continuous Vulnerability Management
 To maintain a hardened security posture, I implemented **Azure Update Manager**. This ensures the SOC infrastructure itself is not a point of failure by automating security patch assessments.
 
 * **Capabilities:** Periodic assessments (AutomaticByPlatform) are enabled to flag critical security updates for the Ubuntu Manager.
-* **Image Evidence:** `![IMG_1058](https://github.com/user-attachments/assets/6b79e314-71bb-44b7-ab17-39ae8f2e1c6e)`
+* **Image Evidence:** ![IMG_1059](https://github.com/user-attachments/assets/91df61c7-4b37-482c-ad48-05233d84ef38)
 
 ### 4. Identity & Governance (RBAC)
 Following the **Principle of Least Privilege (PoLP)**, I managed a multi-user environment using **Azure Role-Based Access Control (RBAC)**. I assigned granular roles (Virtual Machine Contributor) to collaborators to ensure operational efficiency without compromising root-level security.
