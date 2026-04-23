@@ -1,4 +1,4 @@
-<img width="1366" height="768" alt="Screenshot_2026-04-22_08_56_33" src="https://github.com/user-attachments/assets/7a7ae231-4be8-4a46-b1d9-0b3cae4b2a47" /># 🛡️ Hybrid Cloud SOC & SIEM Lab (Azure + Wazuh)
+# 🛡️ Hybrid Cloud SOC & SIEM Lab (Azure + Wazuh)
 
 ## 📌 Project Overview
 This project demonstrates the end-to-end deployment of a modern **Security Operations Center (SOC)**. By integrating **Microsoft Sentinel** (SIEM) with **Wazuh** (XDR), I created a centralized monitoring environment that captures both high-level cloud infrastructure changes and deep-level endpoint telemetry.
