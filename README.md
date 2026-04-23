@@ -38,4 +38,4 @@ A core component of this lab involved performing deep-dive investigations using 
 AzureActivity
 | where OperationNameValue has "VIRTUALMACHINES"
 | project TimeGenerated, Caller, CallerIpAddress, OperationNameValue, ActivityStatusValue
-| order by TimeGenerated desc<img width="1366" height="768" alt="Screenshot_2026-04-22_08_56_33" src="https://github.com/user-attachments/assets/a0bc38b7-7b76-48dd-83df-17493508639b" />
+```
